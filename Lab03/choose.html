@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Опитування про спорт</title>
+</head>
+<body>
+
+<h1>Опитування про спорт у неділю</h1>
+
+<form>
+
+<label>ПІБ</label><br>
+<input type="text" required>
+
+<br><br>
+
+<label>E-mail</label><br>
+<input type="email">
+
+<br><br>
+
+<label>Вік</label><br>
+<input type="number" min="10" max="100">
+
+<br><br>
+
+<label>Чи займаєтеся ви спортом?</label><br>
+
+<input type="radio" name="sport"> Так
+<input type="radio" name="sport"> Ні
+
+<br><br>
+
+<label>Скільки годин спорту на тиждень?</label><br>
+<input type="number" min="0" max="24">
+
+<br><br>
+
+<label>Який вид спорту?</label><br>
+
+<input type="checkbox"> Футбол<br>
+<input type="checkbox"> Баскетбол<br>
+<input type="checkbox"> Волейбол<br>
+<input type="checkbox"> Фітнес<br>
+<input type="checkbox"> Плавання<br>
+<input type="checkbox"> Біг
+
+<br><br>
+
+<label>Рівень підготовки</label><br>
+<select>
+    <option>Початківець</option>
+    <option>Любитель</option>
+    <option>Аматор</option>
+    <option>Професіонал</option>
+</select>
+
+<br><br>
+
+<label>Коли ви займаєтесь спортом?</label><br>
+<select>
+    <option>Ранок (6-9)</option>
+    <option>Обід (12-14)</option>
+    <option>Вечір (17-20)</option>
+    <option>Ніч (20+)</option>
+</select>
+
+<br><br>
+
+<label>Дата опитування</label><br>
+<input type="date">
+
+<br><br>
+
+<label>Ваш коментар</label><br>
+<textarea rows="5" cols="50"></textarea>
+
+<br><br>
+
+<input type="submit" value="Надіслати">
+<input type="reset" value="Очистити">
+
+</form>
+
+</body>
+</html>

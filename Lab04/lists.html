@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Улюблені ігри, медіа та предмети</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 24px;
+      line-height: 1.5;
+    }
+
+    h1 {
+      margin-bottom: 8px;
+    }
+
+    section {
+      margin-bottom: 24px;
+    }
+
+    .games li:nth-child(even) {
+      background-color: #e8f3ff;
+      color: #0a3d7a;
+    }
+
+    .media li:nth-child(3n + 2) {
+      background-color: #fff3cd;
+      color: #7a4f00;
+    }
+
+    .subjects li:first-child,
+    .subjects li:last-child {
+      background-color: #e8ffe8;
+      color: #135a13;
+    }
+  </style>
+</head>
+<body>
+  <h1>Мої улюблені списки</h1>
+
+  <section>
+    <h2>1. Улюблені ігри</h2>
+    <ul class="games">
+      <li>Cyberpunk 2077</li>
+      <li>The Witcher 3</li>
+      <li>Metro Exodus</li>
+      <li>Dark Souls 3</li>
+      <li>Elden Ring</li>
+      <li>Lies of P</li>
+      <li>Sekiro: Shadows Die Twice</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>2. Улюблені фільми, серіали та аніме</h2>
+    <ol class="media">
+      <li>Зелена миля</li>
+      <li>Безславні виродки</li>
+      <li>1408</li>
+      <li>Американський пиріг 1</li>
+      <li>Американський пиріг 2</li>
+      <li>Американський пиріг 3</li>
+      <li>One Piece</li>
+      <li>Cyberpunk: Edgerunners</li>
+      <li>Initial D</li>
+      <li>Golden Boy</li>
+      <li>Nisekoi</li>
+      <li>Кінець ї***ого світу</li>
+      <li>The Boys</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>3. Предмети для DevOps і короткий опис</h2>
+    <ul class="subjects">
+      <li>
+        <strong>Linux та адміністрування систем:</strong>
+        основи роботи з сервером, процесами, правами доступу та shell-скриптами.
+      </li>
+      <li>
+        <strong>CI/CD практики:</strong>
+        автоматизація збірки, тестування і деплою застосунків через пайплайни.
+      </li>
+      <li>
+        <strong>Контейнери та оркестрація (Docker/Kubernetes):</strong>
+        упаковка сервісів у контейнери, масштабування і керування мікросервісами.
+      </li>
+    </ul>
+  </section>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Hotel Booking</title>
+</head>
+<body>
+
+<form>
+
+<h1>Hotel Booking</h1>
+<p>Special discounts for "Програмування для Інтернет" students</p>
+
+<div>
+    <div>
+        <label>Name *</label>
+        <input type="text" placeholder="First Name" required>
+    </div>
+
+    <div>
+        <label>E-mail *</label>
+        <input type="email" placeholder="myname@example.com" required>
+    </div>
+</div>
+
+<div>
+    <div>
+        <label>Room Type</label>
+        <select>
+            <option>Please Select</option>
+            <option>Single Room</option>
+            <option>Double Room</option>
+        </select>
+    </div>
+
+    <div>
+        <label>Number of Guests *</label>
+        <input type="number" min="1" max="10" placeholder="e.g. 4">
+    </div>
+</div>
+
+<label>Arrival Date & Time *</label>
+<input type="datetime-local">
+
+<br><br>
+
+<label>Departure Date *</label>
+
+<div>
+    <select><option>Month</option></select>
+    <select><option>Day</option></select>
+    <select><option>Year</option></select>
+</div>
+
+<p><b>Free Pickup?</b></p>
+
+<input type="radio" name="pickup"> Yes Please!
+<input type="radio" name="pickup"> No Thanks
+
+<br><br>
+
+<label>Flight Number</label>
+<input type="text">
+
+<br><br>
+
+<label><b>Meals *</b></label><br>
+
+<input type="checkbox"> Breakfast<br>
+<input type="checkbox"> Lunch<br>
+<input type="checkbox"> Afternoon Tea<br>
+<input type="checkbox"> Dinner
+
+<br><br>
+
+<label>Special Requests</label>
+<textarea></textarea>
+
+<br><br>
+
+<button>Submit</button>
+
+</form>
+
+</body>
+</html>
